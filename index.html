@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Conheça a Barbearia do CJ, nossos serviços e a estrutura do espaço.">
+  <title>Barbearia do CJ</title>
+  <link rel="stylesheet" href="syle.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="topo">
+    <a class="logo" href="#inicio">BARBEARIA <span>DO CJ</span></a>
+    <button class="menu-botao" type="button" aria-expanded="false" aria-controls="menu">☰ <span class="sr-only">Abrir menu</span></button>
+    <nav id="menu">
+      <a href="#servicos">Serviços</a>
+      <a href="#estrutura">Nossa estrutura</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="destaque" id="inicio">
+      <div class="destaque-conteudo">
+        <p class="etiqueta">BARBEARIA DO CJ</p>
+        <h1>Seu visual<br>bem cuidado.</h1>
+        <p>Cortes, barba e um espaço feito para você se sentir à vontade.</p>
+        <a class="botao" href="#estrutura">Conheça o espaço</a>
+      </div>
+    </section>
+
+    <section class="secao servicos" id="servicos">
+      <p class="etiqueta">O QUE FAZEMOS</p>
+      <h2>Nossos serviços</h2>
+      <div class="cartoes-servico">
+        <article class="cartao">
+          <span aria-hidden="true">✂</span>
+          <h3>Corte de cabelo</h3>
+          <p>Do clássico ao moderno, no estilo que combina com você.</p>
+        </article>
+        <article class="cartao">
+          <span aria-hidden="true">◒</span>
+          <h3>Barba</h3>
+          <p>Acabamento e cuidado para deixar a barba alinhada.</p>
+        </article>
+        <article class="cartao">
+          <span aria-hidden="true">✳</span>
+          <h3>Cabelo + barba</h3>
+          <p>Um cuidado completo para renovar o visual.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="secao secao-estrutura" id="estrutura">
+      <p class="etiqueta">CONHEÇA O ESPAÇO</p>
+      <h2>A estrutura da barbearia</h2>
+      <p class="descricao">Um espaço organizado para oferecer conforto e praticidade durante o atendimento.</p>
+      <div class="planta" aria-label="Planta ilustrativa da barbearia com recepção, sala de espera, três cadeiras de corte e lavatório">
+        <div class="area area-recepcao"><span>RECEPÇÃO</span><strong>Balcão</strong></div>
+        <div class="area area-espera"><span>ESPERA</span><strong>Assentos</strong></div>
+        <div class="area area-cadeira cadeira-um"><span>01</span><strong>Cadeira</strong></div>
+        <div class="area area-cadeira cadeira-dois"><span>02</span><strong>Cadeira</strong></div>
+        <div class="area area-cadeira cadeira-tres"><span>03</span><strong>Cadeira</strong></div>
+        <div class="area area-lavatorio"><span>LAVATÓRIO</span><strong>Lavatório</strong></div>
+        <div class="area area-apoio"><span>APOIO</span><strong>Materiais</strong></div>
+      </div>
+      <p class="legenda-planta">Esquema ilustrativo da organização do espaço.</p>
+    </section>
+
+    <section class="contato" id="contato">
+      <div>
+        <p class="etiqueta">FALE COM A GENTE</p>
+        <h2>Endereço e contato</h2>
+        <p>Adicione aqui o endereço, telefone ou WhatsApp da barbearia.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <a class="logo" href="#inicio">BARBEARIA <span>DO CJ</span></a>
+    <p>© <span id="ano"></span> Barbearia do CJ</p>
+  </footer>
+</body>
+</html>
